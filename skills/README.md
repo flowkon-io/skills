@@ -17,8 +17,8 @@ skills/
       assets/                 # optional: templates/files the skill uses or outputs
 ```
 
-This repo is a dedicated skills-distribution repo (same shape as
-[mattpocock/skills](https://github.com/mattpocock/skills)): skills live at
+This repo is a dedicated skills-distribution repo:
+skills live at
 top-level `skills/`, and `.claude-plugin/plugin.json` +
 `marketplace.json` at the repo root turn the whole repo into an installable
 Claude Code plugin marketplace. See the root [README.md](../README.md) for
