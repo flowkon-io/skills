@@ -22,3 +22,4 @@ list, and how to add a new skill.
 | Category | Description |
 | --- | --- |
 | [outreach](skills/outreach/README.md) | Building and running Flowkon LinkedIn outreach campaigns. |
+| [engineering](skills/engineering/README.md) | Working in Flowkon's own codebase (social-bot backend, campaign flow engine). |

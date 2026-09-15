@@ -1,7 +1,7 @@
 {
   "name": "flowkon-skills",
   "version": "0.1.0",
-  "description": "Flowkon's agent skills for LinkedIn outreach automation: ICP-based lead scoring, campaign flow building, and researched, personalized per-lead messaging.",
+  "description": "Flowkon's agent skills: LinkedIn outreach campaign automation (ICP scoring, flow building, personalized messaging) and engineering workflows for Flowkon's own codebase.",
   "author": {
     "name": "Flowkon",
     "url": "https://flowkon.io"
@@ -17,9 +17,12 @@
     "icp",
     "lead-scoring",
     "campaigns",
-    "automation"
+    "automation",
+    "engineering",
+    "social-bot"
   ],
   "skills": [
-    "./skills/outreach/flowkon-icp-outreach-campaign"
+    "./skills/outreach/flowkon-icp-outreach-campaign",
+    "./skills/engineering/add-campaign-action"
   ]
 }

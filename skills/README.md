@@ -29,6 +29,7 @@ install instructions.
 | Category | Description |
 | --- | --- |
 | [outreach](outreach/README.md) | Building and running Flowkon LinkedIn outreach campaigns. |
+| [engineering](engineering/README.md) | Working in Flowkon's own codebase (social-bot backend, campaign flow engine). |
 
 ## Using these skills locally, in this repo
 
