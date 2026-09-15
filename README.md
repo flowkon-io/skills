@@ -1,13 +1,24 @@
 # FLOWKON
 
+Flowkon's agent skills for Claude Code, distributed as an installable plugin
+marketplace (same shape as [mattpocock/skills](https://github.com/mattpocock/skills)).
+
+## Install
+
+```
+/plugin marketplace add flowkon-io/FLOWKON
+/plugin install flowkon-skills@flowkon
+```
+
+Once installed, skills trigger automatically — no slash command needed —
+when a request matches a skill's description.
+
 ## Skills
 
-Project-level Claude Code skills live in [.claude/skills/](.claude/skills/) —
-this is the path Claude Code auto-discovers, so skills must live here (not a
-top-level `skills/`) to be picked up. Each skill is a folder containing a
-`SKILL.md` (frontmatter `name` + `description`, plus instructions) and
-optional `references/`, `scripts/`, or `assets/` subfolders.
+Skills live in [skills/](skills/), grouped by category. See
+[skills/README.md](skills/README.md) for the full layout, the category
+list, and how to add a new skill.
 
-| Skill | Description |
+| Category | Description |
 | --- | --- |
-| [flowkon-icp-outreach-campaign](.claude/skills/flowkon-icp-outreach-campaign/SKILL.md) | Builds a complete Flowkon LinkedIn outreach campaign from an ICP down to individually researched, personalized messages per lead — search, scoring, warmup/follow-up flow, and per-lead copy. |
+| [outreach](skills/outreach/README.md) | Building and running Flowkon LinkedIn outreach campaigns. |
