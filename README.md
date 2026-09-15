@@ -1,7 +1,7 @@
 # FLOWKON
 
 Flowkon's agent skills for Claude Code, distributed as an installable plugin
-marketplace (same shape as [mattpocock/skills](https://github.com/mattpocock/skills)).
+marketplace.
 
 ## Install
 
